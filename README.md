@@ -1,11 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/VeSS0OJr)
-
-
 # Task Tracker API
 
 ## Overview
 
-Developed a Task Tracker applcaition using Express.js, node.js, mongoDB, Mongoose object modeling tool. 
+Developed a Task Tracker application using Express.js, node.js, MongoDB, and Mongoose object modeling tool. 
 Built RESTful APIs with Node.js and Express.js, utilizing MongoDB for data storage. It provides endpoints for managing tasks, including creation, filtering, retrieval, updating, and deletion operations.
 
 ## Features
