@@ -1,0 +1,24 @@
+meta {
+  name: Filter Tasks
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:3000/tasks/filter?description=moto
+  body: none
+  auth: none
+}
+
+params:query {
+  description: moto
+  ~title: motorola
+  ~completed: false
+  ~startDate: 2024-07-17T19:56:44.889Z
+  ~endDate: 2024-12-31
+  ~completed: false
+}
+
+headers {
+  Content-Type: application/json
+}

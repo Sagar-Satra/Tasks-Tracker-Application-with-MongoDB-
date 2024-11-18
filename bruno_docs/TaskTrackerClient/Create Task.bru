@@ -1,0 +1,23 @@
+meta {
+  name: Create Task
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/tasks
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+  Accept: application/json
+}
+
+body:json {
+  {
+    "title": "motorola" ,
+    "description": "Buy imoto3."
+  }
+}
